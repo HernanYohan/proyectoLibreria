@@ -11,4 +11,13 @@ package com.mycompany.proyectolibreria;
  */
 public class Libro {
     
+    private String nombre;
+    private String autor;
+    private String editorial;
+    private String version;
+    private String genero;
+    private double costo;
+    private int cantidad;
+    
+    
 }
