@@ -12,6 +12,25 @@ import java.sql.Time;
  * @author CamiloAlvarez
  */
 public class Venta{
+    
+    private String formasDePago;
+    private int estado;
+
+    public String getFormasDePago() {
+        return formasDePago;
+    }
+
+    public void setFormasDePago(String formasDePago) {
+        this.formasDePago = formasDePago;
+    }
+
+    public int getEstado() {
+        return estado;
+    }
+
+    public void setEstado(int estado) {
+        this.estado = estado;
+    }
  
     /*@author CamiloAlvarez*/
     public void libroMasVendido(){
