@@ -19,5 +19,17 @@ public class Libro {
     private double costo;
     private int cantidad;
     
+    private void agregarLibro(){
+        
+    }
+    
+    private void modificarLibro(){
+        
+    }
+    
+    private void eliminarLibro(){
+        
+    }
+    
     
 }

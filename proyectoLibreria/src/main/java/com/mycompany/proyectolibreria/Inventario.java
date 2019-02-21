@@ -9,6 +9,30 @@ package com.mycompany.proyectolibreria;
  *
  * @author CamiloAlvarez
  */
-public class Inventario {
+public class Inventario{
+    
+    private ArrayStoreException libros;
+    
+    public void mostrarLibros(){
+        
+    }
+    
+    public void clasificarLibros(){
+        
+    }
+    
+    public void buscarLibro(){
+        
+    }
+    
+    public void libroMasCaro(){
+        
+    }
+    public void libroMenosCaro(){
+        
+    }
+    public void libroCantidadMinimo(){
+        
+    }
     
 }

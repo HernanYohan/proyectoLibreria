@@ -5,10 +5,21 @@
  */
 package com.mycompany.proyectolibreria;
 
+import java.sql.Time;
+
 /**
  *
  * @author CamiloAlvarez
  */
-public class Venta {
+public class Venta{
+ 
+    
+    public void libroMasVendido(){
+        
+    }
+    public void libroMenosVendido(){
+        
+    }
+    
     
 }
