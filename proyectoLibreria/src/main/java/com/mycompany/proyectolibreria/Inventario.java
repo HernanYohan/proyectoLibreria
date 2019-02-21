@@ -13,26 +13,38 @@ public class Inventario{
     
     private ArrayStoreException libros;
     
+    /*@author CamiloAlvarez*/
     public void mostrarLibros(){
         
     }
-    
+    /*@author CamiloAlvarez*/
     public void clasificarLibros(){
         
     }
-    
+    /*@author CamiloAlvarez*/
     public void buscarLibro(){
         
     }
-    
+    /*@author CamiloAlvarez*/
     public void libroMasCaro(){
         
     }
+    /*@author CamiloAlvarez*/
     public void libroMenosCaro(){
         
     }
-    public void libroCantidadMinimo(){
+
+    public ArrayStoreException getLibros(){
+        return libros;
         
+    }
+
+    /*@author CamiloAlvarez*/
+    public void setLibros(ArrayStoreException libros) {
+        this.libros = libros;
+    }
+
+    public void libroCantidadMinimo() {
     }
     
 }
