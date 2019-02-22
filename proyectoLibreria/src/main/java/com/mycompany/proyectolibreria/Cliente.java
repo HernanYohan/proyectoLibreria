@@ -12,7 +12,7 @@ package com.mycompany.proyectolibreria;
      */
 public class Cliente {
      /**
-        variable que sirve como llave foranea para enlazar con las demas clases
+        variable que sirve como llave primaria para enlazar con las demas clases
     */
     private int id_cedula;
      
@@ -56,7 +56,7 @@ public class Cliente {
     /**
     * @autor Hernan
     *Funcion que permitira  agregar cada cliente con sus respectivos datos
-    * version 1.0
+    *@version 1.0
     */
     public void agregarCliente(){
     
@@ -65,7 +65,7 @@ public class Cliente {
     /**
     * @author Hernan
     * *Funcion que permitira  modificar los diferentes datos de  cada cliente 
-    * version 1.0
+    * @version 1.0
     */    
     public void modificarCliente(){
     
@@ -73,7 +73,7 @@ public class Cliente {
     /**
     * @author Hernan
     * *Funcion que permitira  mostrar los datos de cada cliente 
-    * version 1.0
+    * @version 1.0
     */    
     public void mostrarCliente(){
     
@@ -81,7 +81,7 @@ public class Cliente {
     /**
    * @author Hernan
    * *Funcion que permitira  eliminar los datos de cada cliente 
-   * version 1.0
+   * @version 1.0
    */    
     public void eliminarCliente(){
     
