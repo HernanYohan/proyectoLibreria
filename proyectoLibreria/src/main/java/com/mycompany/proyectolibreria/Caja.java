@@ -21,6 +21,33 @@ public class Caja {
         this.ingresos = ingresos;
         this.inversion = inversion;
     }
+    
+     /**
+ *
+ * @author HernanHernandez
+ */
+    
+    private void cajamenor(){
+    
+    }
+    
+ /**
+ *
+ * @author HernanHernandez
+ */
+    private void calcularInversion(){
+    
+    }
+    
+ /**
+ *
+ * @author HernanHernandez
+ */
+    private void calcularIngresos(){
+    
+    }
+    
+    
 
     public double getBase() {
         return base;
@@ -46,32 +73,7 @@ public class Caja {
         this.inversion = inversion;
     }
     
- /**
- *
- * @author HernanHernandez
- */
-    
-    private void cajamenor(){
-    
-    }
-    
- /**
- *
- * @author HernanHernandez
- */
-    private void calcularInversion(){
-    
-    }
-    
- /**
- *
- * @author HernanHernandez
- */
-    private void calcularIngresos(){
-    
-    }
-    
-    }
+}
     
     
     
