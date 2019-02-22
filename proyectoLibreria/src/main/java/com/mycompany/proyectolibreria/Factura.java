@@ -54,9 +54,16 @@ public class Factura {
     }
 
     /**
-     * @autor Hernan
+    *@autor Hernan
+    *Funcion que permitira generar la  factura describiendo la serie, la fecha, la descripcion  y el valor total
+    *@version 1.0
+    */
+    public void generarFactura() {
+    }
+    /**
+     *@autor Hernan
      *Funcion que permitira imprimir factura describiendo la serie, la fecha, la descripcion  y el valor total
-     * version 1.0
+     *@version 1.0
      */
     public void imprimirFactura() {
     }
