@@ -5,15 +5,23 @@
  */
 package com.mycompany.proyectolibreria;
 
+import java.util.List;
+
 /**
- *
+ *clase inventario la cual contiene todos los libros
  * @author CamiloAlvarez
+ * @version 1.0
  */
 public class Inventario{
-    
-    private ArrayStoreException libros;
-    
-    /*@author CamiloAlvarez*/
+    /**
+     *arreglo en el que contiene todos los libros
+     */
+    private Libro[] arregloLibros;
+
+    public Inventario() {
+        arregloLibros = new Libro[10];
+    }
+   
     public void mostrarLibros(){
         
     }
@@ -32,17 +40,7 @@ public class Inventario{
     /*@author CamiloAlvarez*/
     public void libroMenosCaro(){
         
-    }
-
-    public ArrayStoreException getLibros(){
-        return libros;
-        
-    }
-
-    /*@author CamiloAlvarez*/
-    public void setLibros(ArrayStoreException libros) {
-        this.libros = libros;
-    }
+    } 
 
     public void libroCantidadMinimo() {
     }
